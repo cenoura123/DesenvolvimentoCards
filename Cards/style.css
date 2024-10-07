@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Arial";
+    gap: 16px;
+    background-image: url(assets/tricodando.png);
+    flex-wrap: wrap;
+}
+
+.card {
+    background-origin: #fff;
+    width: 180px;
+    height: 260px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+    transition: all .55s ease;
+    
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+    height: 50%;
+}
+
+.card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+}
+
+.card h1 {
+    font-size: 1.2rem;
+}
+
+.card h2 {
+    font-size: .9rem;
+    color: #aaaa;
+}
+
+.card button {
+    width: 80%;
+    height: 22%;
+    border-radius: 6px;
+    border: none;
+    background-color: #2192ff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 4px;
+    color: #fff;
+    transition: all .55s ease;
+}
+
+.card button:hover{
+    background-color: #fff;
+    color: black;
+    border: solid black 1px;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+span {
+    font-size: 18px;
+    font-weight: bold;
+}
